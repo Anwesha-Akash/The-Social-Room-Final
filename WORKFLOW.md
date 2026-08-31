@@ -14,7 +14,7 @@
 
 2. **Technical Architecture**:
    - Initialized a modern, lightweight React + Vite + Tailwind CSS foundation.
-   - Structured the repository cleanly under `src/components/` (13 section components + 4 interactive modal drawers), `src/data/content.js` (centralized data model for maintainability), and `src/assets/` (curated monochrome/desaturated visual assets).
+   - Structured the repository cleanly under `src/components/` (13 section components + 4 interactive modal drawers), `src/data/content.js` (centralized data model for maintainability and simplicity), and `src/assets/` (curated monochrome/desaturated visual assets).
 
 3. **Color System & Design Tokens**:
    - Enforced the exact color palette in `tailwind.config.js`:
