@@ -21,7 +21,7 @@ export default function Process({ onOpenBooking }) {
         <div className="max-w-3xl mb-16 pb-6 border-b border-white/10">
           <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-crimson mb-3">
             <span className="w-1.5 h-1.5 rounded-full bg-crimson" />
-            <span>07 · How It Works (Locked)</span>
+            <span>07 · How It Works</span>
           </div>
 
           {/* Locked Heading */}

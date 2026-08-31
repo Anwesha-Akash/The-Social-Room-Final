@@ -15,7 +15,7 @@ export default function Clients({ onOpenBooking }) {
           <div>
             <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-crimson mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-crimson" />
-              <span>06 · Social Proof</span>
+              <span>06 · Clients</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-ink tracking-tight">
               Trusted by founders <br />

@@ -43,7 +43,7 @@
    - **13 Footer**: Rich Ink footer with branding, navigation, social links, and next steps nudge.
 
 5. **Interactivity & Usability**:
-   - Built an interactive **Booking Modal** allowing founders to select package tier, pick date/time slots, fill founder details, and receive instant confirmation.
+   - Built an interactive **Booking Modal** allowing founders to select a package tier, choose a date/time slot, enter their details, and complete a simulated booking flow with a confirmation state.
    - Built a **Service Detail Modal** and **Reel Breakdown Modal** to provide deep context without cluttering the page.
 
 ---
@@ -73,14 +73,14 @@
    - The Process section adheres strictly to the locked wireframe. On desktop, the stepped cards create a natural narrative flow (01 Discovery → 02 Strategy → 03 Create → 04 Publish → 05 Grow). On mobile, they gracefully collapse into an intuitive vertical stack.
 
 5. **Monochrome / Desaturated Imagery**:
-   - To respect the 3-color rule and avoid random color clashing, all placeholder portraits and reel covers are curated with monochrome, high-contrast studio lighting.
+   - To respect the 3-color rule and avoid random color clashing, AI-generated placeholder portraits and reel covers were treated with a monochrome/desaturated visual style and high-contrast studio lighting.
 
 ---
 
 ## 4. Trade-Offs & Scope Decisions
 
-- **Client Social Proof**: As real client identities were not provided in the assignment brief, tasteful, realistic founder handles and portraits were used with zero fabricated numerical statistics or fake brand logos.
-- **Booking Flow**: Rather than routing to a generic external URL or broken link, an integrated discovery call scheduling modal was built directly into the client app to provide a complete end-to-end user experience.
+- **Client Social Proof**: As real client identities, photos, and handles were not provided in the assignment brief, AI-generated placeholder founder/client visuals were used to demonstrate the intended social-proof layout. No fabricated numerical statistics, testimonials, or brand claims were included.
+- **Booking Flow**: Implemented the discovery-call booking experience entirely on the frontend as an interactive prototype, since no backend or external scheduling service was provided in the assignment requirements
 - **Lightweight Dependencies**: Deliberately avoided heavy UI animation packages (e.g. Framer Motion) in favor of lightweight CSS keyframes and transitions to guarantee near-instant page load speeds on mobile networks.
 
 ---
