@@ -1,11 +1,5 @@
 # The Social Room — Workflow Note & Design Decisions
 
-### Candidate: Frontend Engineering Intern Applicant
-### Project: The Social Room (One-Page Marketing Website)
-### Positioning: *"We’re not a content agency. We’re your personal branding partner."*
-
----
-
 ## 1. Workflow & Implementation Steps
 
 1. **Brief & Wireframe Analysis**:
@@ -84,14 +78,3 @@
 - **Lightweight Dependencies**: Deliberately avoided heavy UI animation packages (e.g. Framer Motion) in favor of lightweight CSS keyframes and transitions to guarantee near-instant page load speeds on mobile networks.
 
 ---
-
-## 5. Verification Checklist Summary
-
-- [x] All 13 sections implemented in exact wireframe order
-- [x] Process section matches locked 5-step structure
-- [x] Strict 3-color system followed (White dominant, Ink text/process/footer, Crimson accent)
-- [x] Sticky navigation with working links and Kebab menu
-- [x] All "Book a call" CTAs are fully interactive
-- [x] Responsive on desktop (1440px), tablet (768px), and mobile (375px)
-- [x] Production build passes cleanly with 0 errors
-- [x] Vercel-ready deployment configuration
